@@ -1,4 +1,5 @@
-<script>
+<!-- <script>
+    // Si no pongo setup en la etiqueta html
 import { defineComponent, ref } from 'vue';
     export default defineComponent({
         name: 'CounterComposition',
@@ -10,6 +11,15 @@ import { defineComponent, ref } from 'vue';
             return {counter, lessCounter}
         }
     });
+</script> -->
+
+<script setup>
+// Si pongo setup en la etiqueta html
+import { ref } from 'vue';
+let counter = ref(0);
+const lessCounter = () => {
+    counter.value--
+}
 </script>
 
 <template>
