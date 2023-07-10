@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <button class="post-btn">Acceder</button>
+    <button class="post-btn">Enter</button>
 </template>
 
 <style scoped>
