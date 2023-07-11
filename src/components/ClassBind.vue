@@ -1,10 +1,17 @@
 <script>
-    import { defineComponent } from 'vue';
+    import { defineComponent, ref } from 'vue';
     export default defineComponent({
         name: 'ClassBind',
         setup(){
-            let hasError = false;
-            return {hasError};
+            let hasError = ref(false);
+            const setError = () => {
+                if(hasError.value === false){
+                    hasError.value = true;
+                }else{
+                    hasError.value = false;
+                }
+            };
+            return {hasError, setError};
         }
     })
 </script>
@@ -16,6 +23,7 @@
     }">El mensaje se ha enviado correctamente</p>
     <!-- los dos puntos previos a un atributo son el equivalente a v-bind -->
     <!-- <p :class="{'danger' : hasError}">El mensaje se ha enviado correctamente</p> -->
+    <button v-on:click="setError">SetError</button>
 </template>
 
 

@@ -4,8 +4,8 @@
   // import CounterComposition from './components/CounterComposition.vue';
   // import ExampleSelective from './components/ExampleSelective.vue';
   // import ExampleFor from './components/ExampleFor.vue';
-  // import ClassBind from './components/ClassBind.vue';
-  import StyleBind from './components/StyleBind.vue';
+  import ClassBind from './components/ClassBind.vue';
+  // import StyleBind from './components/StyleBind.vue';
 </script>
 
 <template>
@@ -15,8 +15,8 @@
   <!-- <PostContainer /> -->
   <!-- <ExampleSelective /> -->
   <!-- <ExampleFor /> -->
-  <!-- <ClassBind /> -->
-  <StyleBind />
+  <ClassBind />
+  <!-- <StyleBind /> -->
 </template>
 
 <style scoped>
