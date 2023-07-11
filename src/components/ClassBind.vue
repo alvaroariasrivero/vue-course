@@ -23,7 +23,8 @@
     }">El mensaje se ha enviado correctamente</p>
     <!-- los dos puntos previos a un atributo son el equivalente a v-bind -->
     <!-- <p :class="{'danger' : hasError}">El mensaje se ha enviado correctamente</p> -->
-    <button v-on:click="setError">SetError</button>
+    <!-- <button v-on:click="setError">SetError</button> -->
+    <button @click="setError">SetError</button>
 </template>
 
 
