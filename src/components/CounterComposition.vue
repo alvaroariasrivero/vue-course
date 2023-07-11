@@ -1,4 +1,5 @@
 <!-- <script>
+    // Composition API
     // Si no pongo setup en la etiqueta html
 import { defineComponent, ref } from 'vue';
     export default defineComponent({

@@ -1,4 +1,5 @@
 <script>
+    // Optional API
     import { defineComponent } from 'vue';
     export default defineComponent({
         name: 'CounterOption',
