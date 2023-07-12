@@ -8,7 +8,8 @@
   // import StyleBind from './components/StyleBind.vue';
   // import ModelForm from './components/ModelForm.vue';
   // import CycleOption from './components/CycleOption.vue';
-  import CycleComposition from './components/CycleComposition.vue';
+  // import CycleComposition from './components/CycleComposition.vue';
+  import PostList from './components/PostList.vue';
 </script>
 
 <template>
@@ -22,7 +23,8 @@
   <!-- <StyleBind /> -->
   <!-- <ModelForm /> -->
   <!-- <CycleOption /> -->
-  <CycleComposition />
+  <!-- <CycleComposition /> -->
+  <PostList />
 </template>
 
 <style scoped>
