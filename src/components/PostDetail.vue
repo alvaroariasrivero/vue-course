@@ -1,16 +1,25 @@
 <script setup>
 
+    import { ref } from 'vue';
+
+    let message = ref('');
+
     const props = defineProps({
-        title : {
-            type : String,
-            required : true
-        },
-        content : {
-            type : String,
-            required : false,
-            default : 'Este post no tiene contenido'
-        }
+    title: {
+        type: String,
+        required: true,
+    },
+    content: {
+        type: String,
+        default: 'Este post no tiene contenido',
+    },
     });
+
+    const emit = defineEmits(['sayHi']);
+
+    const handleClick = () => {
+        emit('sayHi', message.value);
+    };
 
 </script>
 
@@ -18,6 +27,8 @@
     <div class="post">
         <h3>{{ title }}</h3>
         <p>{{ content }}</p>
+        <input type="text" v-model="message">
+        <button @click="handleClick">Say Hi</button>
     </div>
 </template>
 

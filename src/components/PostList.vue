@@ -21,12 +21,16 @@
             title: 'Texto 5',
             content: 'Ramalamadindon 5'
         }
-    ]
+    ];
+
+    const showAlert = (msg) => {
+        alert(msg);
+    }; 
 </script>
 
 <template>
     <div class="container">
-        <PostDetail v-for="elm in info" :key="elm.title" :title="elm.title" :content="elm.content" />
+        <PostDetail v-for="elm in info" :key="elm.title" :title="elm.title" :content="elm.content" @sayHi="showAlert" />
     </div>
 </template>
 
