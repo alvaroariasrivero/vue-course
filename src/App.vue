@@ -6,7 +6,8 @@
   // import ExampleFor from './components/ExampleFor.vue';
   // import ClassBind from './components/ClassBind.vue';
   // import StyleBind from './components/StyleBind.vue';
-  import ModelForm from './components/ModelForm.vue';
+  // import ModelForm from './components/ModelForm.vue';
+  import CycleOption from './components/CycleOption.vue';
 </script>
 
 <template>
@@ -18,7 +19,8 @@
   <!-- <ExampleFor /> -->
   <!-- <ClassBind /> -->
   <!-- <StyleBind /> -->
-  <ModelForm />
+  <!-- <ModelForm /> -->
+  <CycleOption />
 </template>
 
 <style scoped>
