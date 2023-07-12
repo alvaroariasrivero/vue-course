@@ -7,7 +7,8 @@
   // import ClassBind from './components/ClassBind.vue';
   // import StyleBind from './components/StyleBind.vue';
   // import ModelForm from './components/ModelForm.vue';
-  import CycleOption from './components/CycleOption.vue';
+  // import CycleOption from './components/CycleOption.vue';
+  import CycleComposition from './components/CycleComposition.vue';
 </script>
 
 <template>
@@ -20,7 +21,8 @@
   <!-- <ClassBind /> -->
   <!-- <StyleBind /> -->
   <!-- <ModelForm /> -->
-  <CycleOption />
+  <!-- <CycleOption /> -->
+  <CycleComposition />
 </template>
 
 <style scoped>
