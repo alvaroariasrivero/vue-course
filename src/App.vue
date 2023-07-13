@@ -10,7 +10,8 @@
   // import CycleOption from './components/CycleOption.vue';
   // import CycleComposition from './components/CycleComposition.vue';
   // import PostList from './components/PostList.vue';
-  import ComputedExample from './components/ComputedExample.vue';
+  // import ComputedExample from './components/ComputedExample.vue';
+  import ComputedExercise from './components/ComputedExercise.vue';
 </script>
 
 <template>
@@ -26,7 +27,8 @@
   <!-- <CycleOption /> -->
   <!-- <CycleComposition /> -->
   <!-- <PostList /> -->
-  <ComputedExample />
+  <!-- <ComputedExample /> -->
+  <ComputedExercise />
 </template>
 
 <style scoped>
